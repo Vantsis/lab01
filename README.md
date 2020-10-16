@@ -1,7 +1,7 @@
 
 ## UoI-CSE-MYY505 lab01
 
-## First-Name Last-Name
+## Dimitris_Vantsis
 
 **TODO - Update your name in this readme. Leave 1 space after the ## to preserve the text formating**
 
@@ -26,9 +26,9 @@ Please **DO NOT MODIFY** any other files.
 ```
 
 ## Automatic testing 
-Every commit pushed is automatically tested, by running the above commands on a virtual machine.
-To view the test results, click on the "Actions" tab and you will see the list of commits.
-Next to each commit there will be a red x if the test fails, or a green tick, if it passes. Click on a commit name and then "Autograding", on the left. You can then expand the logs (little ">"s in the dark area of thw window) to view the error messages.
+Every commit pushed is automatically tested, by running the above commands on a virtual machine..
+To view the test results, click on the "Actions" tab and you will see the list of commits..
+Next to each commit there will be a red x if the test fails, or a green tick, if it passes.. Click on a commit name and then "Autograding", on the left. You can then expand the logs (little ">"s in the dark area of thw window) to view the error messages.
 
 
 ## Notes

@@ -3,32 +3,32 @@
 # Aris Efthymiou
 # Department of Computer Engineering, University of Ioannina
 
-# These are comments! Anything up to the end of line is ignored
+# These are comments! Anything up to the end of line is ignored.
 
         .globl prog # declare the labels as global. .globl is an assembler **directive**
         
-        .text      # Another assembler **direcrive**. what follows is code
+        .text      # Another assembler **direcrive**. what follows is code.
      
         
         # Instructions are indented a few spaces to the right
         #   (so that we can see the labels more clearly)
-        # Instruction operands are indented a few spaces, so that the
+        # Instruction operands are indented a few spaces, so that the.
         #    instruction type is more visible.
       
         la         $a0, matric       # $a0 gets the **address** of matric
                                      # Note: this is address **not** value of matric
         la         $a1, var1         # $a1 gets address of var1
-        la         $a2, array        # get address of array into $a2
+        la         $a2, array        # get address of array into $a2.
                                      # This is called the **base** of the array
         la         $a3, var2         # Get address of var2
 
 prog:   # Words ending with ':' are **labels**
         # The convention is to write labels starting from the leftmost column.
-        # Try to keep label names short so they are to the left of instructions
+        # Try to keep label names short so they are to the left of instructions.
         # It's best not to write instrucions in the same line as a label.
 
-        li         $s0, 100          # Get value 100 into register $s0. li - load immediate
-                                     # THIS WILL BE MODIFIED TO LOAD FROM matric
+        lw         $s0, 0($a0)          # Get value 100 into register $s0. li - load immediate
+                                     # THIS WILL BE MODIFIED TO LOAD FROM matric.
         
         lw         $s1, 0($a1)       # $s1 gets the value of var1. $a1 has the address of var1
         add        $s1, $s1, $s0     # $s1 = var1 + $s0
@@ -61,7 +61,7 @@ exit:
         # Usually data are declared before text. Try to follow that convention 
         #     in your other programs!
         #  
-matric: .word 0    # This will be used by your submitted code
+matric: .word 2643    # This will be used by your submitted code
 var1:   .word 1
 array:  .word 0 : 9 # Array of 9 words (initialized to 0)
 var2:   .byte -1
