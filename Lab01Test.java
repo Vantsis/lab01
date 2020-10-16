@@ -9,7 +9,7 @@ public class Lab01Test {
         ///////////////////////////////////////////
         ///////////////////////////////////////////
         // CHANGE THE 0 TO YOUR MATRIC NUMBER
-        int matricNumber = 0;
+        int matricNumber = 2643;
         ///////////////////////////////////////////
         ///////////////////////////////////////////
         // Provide input
@@ -20,7 +20,7 @@ public class Lab01Test {
         // Run the programm
         run("prog", matric, var1, array, var2);
         // Check the output:
-        // check registers
+        // check registers...
         Assert.assertEquals("$a0 should be address of matric", matric.address(), get(a0));
         Assert.assertEquals("$a1 should be address of var1",  var1.address(),  get(a1));
         Assert.assertEquals("$a2 should be address of array", array.address(), get(a2));
